@@ -1,0 +1,27 @@
+Source: z80ex
+Priority: extra
+Maintainer: Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.4
+Section: libs
+Homepage: http://z80ex.sourceforge.net/
+
+Package: libz80ex-dev
+Section: libdevel
+Architecture: any
+Depends: libz80ex1 (= ${binary:Version}), ${misc:Depends}
+Description: z80ex emulation library, development files
+ libz80ex is a portable ZiLOG Z80 CPU emulator designed as a library.
+ Goals include: precise opcode emulation (documented & undocumented),
+ exact timings for each opcode (including I/O operations) and multiple
+ CPU contexts. A disassembler is included as well. This package
+ contains the development files.
+
+Package: libz80ex1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: z80ex emulation library, shared files
+ libz80ex is a portable ZiLOG Z80 CPU emulator designed as a library.
+ Goals include: precise opcode emulation (documented & undocumented),
+ exact timings for each opcode (including I/O operations) and multiple
+ CPU contexts. A disassembler is included as well.

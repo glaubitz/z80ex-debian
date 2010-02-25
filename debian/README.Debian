@@ -1,0 +1,7 @@
+z80ex for Debian
+----------------
+
+This library has mainly been packaged because it is required by package kcemu.
+It may be used for other ZiLoG z80 emulators as well.
+
+ -- Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Thu, 04 Feb 2010 12:43:18 +0100

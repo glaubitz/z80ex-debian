@@ -1,0 +1,13 @@
+z80ex (1.1.18-1) unstable; urgency=low
+
+  [ Adrian Glaubitz ]
+  * Initial release (Closes: #570150)
+  * Fix lintian errors and warnings.
+
+  [ Jan Dittberner ]
+  * switch to Source-Format 3.0 (quilt)
+  * patch Makefile using
+    debian/patches/relocatable_installation_directory-Makefile.patch
+    instead of direct upstream modification
+
+ -- Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Thu, 25 Feb 2010 10:52:49 +0100
