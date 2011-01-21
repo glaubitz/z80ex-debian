@@ -10,7 +10,7 @@ Upstream Author(s):
 
 Copyright:
 
-    Copyright (C) 2006-2010 Stanislaw E Lomakin <boo_boo@inbox.ru>
+    Copyright (C) 2006-2011 Stanislaw E Lomakin <boo_boo@inbox.ru>
 
 License:
 
@@ -36,7 +36,7 @@ License:
 
 The Debian packaging is:
 
-    Copyright (C) 2010 Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+    Copyright (C) 2010-11 Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
 
 and is licensed under the GPL version 2, 
 see `/usr/share/common-licenses/GPL-2'.
