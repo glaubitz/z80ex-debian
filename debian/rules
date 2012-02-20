@@ -10,7 +10,7 @@
 #export DH_VERBOSE=1
 
 override_dh_install:
-	set -e; for file in libz80ex1.install; \
+	set -e; for file in libz80ex1.install libz80ex-dev.install; \
         do \
                 sed -e"s,\$${DEB_HOST_MULTIARCH},${DEB_HOST_MULTIARCH},g" \
 			debian/$${file}.in > debian/$$file; \
