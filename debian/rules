@@ -15,6 +15,8 @@ override_dh_install:
                 sed -e"s,\$${DEB_HOST_MULTIARCH},${DEB_HOST_MULTIARCH},g" \
 			debian/$${file}.in > debian/$$file; \
         done
+	dh_installdirs
+	dh_install
 
 %:
 	dh  $@
