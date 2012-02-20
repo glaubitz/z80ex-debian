@@ -9,5 +9,12 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+override_dh_install:
+	set -e; for file in libz80ex1.install; \
+        do \
+                sed -e"s,\$${DEB_HOST_MULTIARCH},${DEB_HOST_MULTIARCH},g" \
+			debian/$${file}.in > debian/$$file; \
+        done
+
 %:
 	dh  $@
