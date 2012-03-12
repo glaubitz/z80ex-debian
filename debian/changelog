@@ -2,7 +2,6 @@ z80ex (1.1.19-2) unstable; urgency=low
 
   * Convert for Multi-Arch support.
   * Use my full name for maintainership.
-  * Update debian/libz80ex1.symbols to 1.1.19.
   * Fix helper-templates-in-copyright lintian warning.
   * Fix diff-contains-substvars lintian warning.
   * Bump standards version to 3.9.2.
