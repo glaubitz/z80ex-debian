@@ -1,11 +1,15 @@
 z80ex (1.1.19-2) unstable; urgency=low
 
+  [ John Paul Adrian Glaubitz ]
   * Convert for Multi-Arch support.
   * Use my full name for maintainership.
   * Fix helper-templates-in-copyright lintian warning.
   * Fix diff-contains-substvars lintian warning.
   * Bump standards version to 3.9.2.
   * Update debian/copyright.
+
+  [ Jan Dittberner ]
+  * set DM-Upload-Allowed: yes
 
  -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Mon, 20 Feb 2012 03:09:18 +0100
 
