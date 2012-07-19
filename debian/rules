@@ -9,6 +9,9 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+override_dh_auto_configure:
+	dh_auto_configure -Scmake
+
 override_dh_install:
 	set -e; for file in libz80ex1.install libz80ex-dev.install; \
         do \
