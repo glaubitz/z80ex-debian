@@ -1,3 +1,10 @@
+z80ex (1.1.19-3) unstable; urgency=low
+
+  * Force calling cmake through debhelper to make sure
+    endianness is set correctly (Closes: #682018)
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Fri, 20 Jul 2012 01:50:57 +0200
+
 z80ex (1.1.19-2) unstable; urgency=low
 
   [ John Paul Adrian Glaubitz ]
