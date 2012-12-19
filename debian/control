@@ -5,7 +5,6 @@ Build-Depends: debhelper (>= 9), cmake
 Standards-Version: 3.9.2
 Section: libs
 Homepage: http://z80ex.sourceforge.net/
-DM-Upload-Allowed: yes
 
 Package: libz80ex-dev
 Section: libdevel
