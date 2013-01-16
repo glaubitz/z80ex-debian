@@ -2,9 +2,11 @@ Source: z80ex
 Priority: extra
 Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
 Build-Depends: debhelper (>= 9), cmake
-Standards-Version: 3.9.2
+Standards-Version: 3.9.4
 Section: libs
 Homepage: http://z80ex.sourceforge.net/
+Vcs-Git: git://github.com/glaubitz/z80ex-debian.git
+Vcs-Browser: https://github.com/glaubitz/z80ex-debian
 
 Package: libz80ex-dev
 Section: libdevel
