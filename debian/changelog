@@ -1,3 +1,11 @@
+z80ex (1.1.20-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump standards version to 3.9.4 (no changes required).
+  * Add fields Vcs-Git and Vcs-Browser to debian/control.
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Thu, 17 Jan 2013 01:00:32 +0100
+
 z80ex (1.1.19-3) unstable; urgency=low
 
   * Force calling cmake through debhelper to make sure
