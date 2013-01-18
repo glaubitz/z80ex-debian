@@ -1,20 +1,22 @@
 From: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
 Date: Sat, 21 Jul 2012 20:59:57 +0200
-Subject: Fix version number in CMakeLists.txt, remove pre1 suffix.
+Subject: Fix version number in CMakeLists.txt for version 1.1.20.
 
 ---
- CMakeLists.txt |    2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ CMakeLists.txt |    4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 41d42a3..7578f24 100644
+index 41d42a3..0370510 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -4,7 +4,7 @@ project (z80ex)
+@@ -3,8 +3,8 @@ project (z80ex)
+ 
  set (API_REVISION 1)
  set (VERSION_MAJOR 1)
- set (VERSION_MINOR 19)
+-set (VERSION_MINOR 19)
 -set (RELEASE_TYPE "pre1")
++set (VERSION_MINOR 20)
 +set (RELEASE_TYPE "")
  set (VERSION_STR "${API_REVISION}.${VERSION_MAJOR}.${VERSION_MINOR}${RELEASE_TYPE}")
  
