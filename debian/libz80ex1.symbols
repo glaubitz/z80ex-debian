@@ -1,4 +1,9 @@
 libz80ex.so.1 libz80ex1 #MINVER#
+ z80ex_set_intread_callback@Base 1.1.21
+ z80ex_set_memread_callback@Base 1.1.21
+ z80ex_set_memwrite_callback@Base 1.1.21
+ z80ex_set_portread_callback@Base 1.1.21
+ z80ex_set_portwrite_callback@Base 1.1.21
  z80ex_reset@Base 1.1.18
  z80ex_nmi_possible@Base 1.1.18
  z80ex_set_reti_callback@Base 1.1.18
