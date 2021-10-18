@@ -1,7 +1,7 @@
 Source: z80ex
 Priority: extra
 Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
-Build-Depends: debhelper (>= 9), cmake
+Build-Depends: debhelper-compat (= 12), cmake
 Standards-Version: 3.9.4
 Section: libs
 Homepage: http://z80ex.sourceforge.net/
