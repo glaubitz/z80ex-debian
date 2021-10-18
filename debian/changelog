@@ -1,3 +1,15 @@
+z80ex (1.1.21-2) unstable; urgency=medium
+
+  * Update debian/copyright to copyright format 1.0
+  * Update years in debian/copyright
+  * Update debhelper version to 12 and switch to debhelper-compat
+  * Update Standards-Version to 4.5.1 in debian/control
+  * Update Vcs-* fields for new Salsa project in debian/control
+  * Replace Priority extra with optional in debian/control
+  * Run wrap-and-sort to clean up debian files
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Mon, 18 Oct 2021 18:43:54 +0200
+
 z80ex (1.1.21-1) unstable; urgency=low
 
   * New upstream release.
