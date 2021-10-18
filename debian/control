@@ -1,5 +1,5 @@
 Source: z80ex
-Priority: extra
+Priority: optional
 Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
 Build-Depends: debhelper-compat (= 12), cmake
 Standards-Version: 4.5.1
