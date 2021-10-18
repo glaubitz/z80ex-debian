@@ -1,7 +1,7 @@
 Source: z80ex
 Priority: optional
 Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
-Build-Depends: debhelper-compat (= 12), cmake
+Build-Depends: cmake, debhelper-compat (= 12)
 Standards-Version: 4.5.1
 Section: libs
 Homepage: http://z80ex.sourceforge.net/
@@ -23,7 +23,7 @@ Package: libz80ex1
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: z80ex emulation library, shared files
  libz80ex is a portable ZiLOG Z80 CPU emulator designed as a library.
  Goals include: precise opcode emulation (documented & undocumented),
