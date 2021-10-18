@@ -5,8 +5,8 @@ Build-Depends: debhelper-compat (= 12), cmake
 Standards-Version: 4.5.1
 Section: libs
 Homepage: http://z80ex.sourceforge.net/
-Vcs-Git: git://github.com/glaubitz/z80ex-debian.git
-Vcs-Browser: https://github.com/glaubitz/z80ex-debian
+Vcs-Browser: https://salsa.debian.org/debian/z80ex
+Vcs-Git: https://salsa.debian.org/debian/z80ex.git
 
 Package: libz80ex-dev
 Section: libdevel
